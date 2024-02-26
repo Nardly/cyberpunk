@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Share+Tech+Mono&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.headcontainer {
+display: flex;
+    background-image: url(style/icons/11.svg);
+    background-repeat: no-repeat;
+    height: 500vh;
+}
+
+.logo {
+    display: inline-block;
+    width: 32vh;
+    margin-left: 35vh;
+    margin-top: 3vh;
+}
+
+.headcontainer li {
+    list-style: none;
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.social_icon img {
+    height: 30px;
+
+   position: relative;
+   top: 5vh;
+left: 60vh;   
+
+
+}
+
+#icons {
+    margin-left: 30px;
+}
+
+.more {
+    position: relative;
+    top: 71vh;
+    right: 4vh;
+    height: 37vh;
+}
+
+.learnmore p {
+    position: relative;
+    top: 40vh;
+    font-size: 62px;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.learnmore button {
+    border: transparent;
+    background: black;
+    height: 78px;
+    width: 272px;
+    position: relative;
+    top: 42vh;
+cursor: pointer;
+    color: yellow;
+    font-size: 24px;
+
+}
+
+main h2 {
+    position: absolute;
+    top: 110vh;
+    left: 35vh;
+    font-size: 55px;
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.p {
+     position: absolute;
+    top: 120vh;
+    left: 35vh;
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+}
+
+.p span {
+font-family: "Share Tech Mono", monospace;
+  font-weight: 800;
+  font-style: normal;
+
+    color: rgb(67, 203, 221);
+}
+
+main .img1 {
+    position: absolute;
+    top: 140vh;
+    left: 35vh;
+}
+
+main .img2 {
+    position: absolute;
+    top: 165vh;
+    left: 35vh;
+}
+
+main .img3 {
+    position: absolute;
+    top: 140vh;
+    left: 90vh;
+}
+
+.game {
+    background-color: black;
+    height: 814px;
+    width: 1900px;
+    position: absolute;
+    top: 195vh;
+    background-image: url(style/icons/background1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    
+}
+
+.galka {
+    position: relative;
+    top: 100px;
+    left: 30vh;
+}
+
+.game .p2 {
+    color: white;
+    position: absolute;
+    left: 50vh;
+    font-size: 62px;
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 800;
+  font-style: normal;
+
+}
+
+.ptext {
+    color: gray;
+    position: absolute;
+    left: 30vh;
+    top: 27vh;
+    font-size: 20px;
+
+}
+
+.ptext span {
+    color: rgb(67, 203, 221);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 230vh;
+    left: 30vh;
+}
+
+.username {
+    margin-bottom: 20px;
+    border: transparent;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    height: 40px;
+    width: 40vh;
+    
+}
+
+
+
+.email {
+border: transparent;
+
+border-bottom: 1px solid gray;
+
+    background: transparent;
+    width: 40vh;
+    height: 40px;
+    
+}
+

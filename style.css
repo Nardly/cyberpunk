@@ -9,14 +9,14 @@
 
 .headcontainer {
 display: flex;
-    background-image: url(style/icons/11.svg);
+     background-image: url(style/icons/11.svg);
     background-repeat: no-repeat;
-    height: 500vh;
+    height: 105vh;
+    
 }
 
+
 .logo {
-    display: inline-block;
-    width: 32vh;
     margin-left: 35vh;
     margin-top: 3vh;
 }
@@ -47,14 +47,14 @@ left: 60vh;
 
 .more {
     position: relative;
-    top: 71vh;
+    top: 68vh;
     right: 4vh;
     height: 37vh;
 }
 
 .learnmore p {
     position: relative;
-    top: 40vh;
+    top: 35vh;
     font-size: 62px;
   font-family: "Share Tech Mono", monospace;
   font-weight: 600;
@@ -67,11 +67,19 @@ left: 60vh;
     height: 78px;
     width: 272px;
     position: relative;
-    top: 42vh;
+    top: 40vh;
 cursor: pointer;
     color: yellow;
     font-size: 24px;
+    border-radius: 20px;
+    transition: 0.7s;
 
+}
+
+.learnmore button:hover {
+   background: rgb(0, 255, 13);
+   transition: 0.7s;
+   color: rgb(0, 0, 0);
 }
 
 main h2 {
@@ -97,7 +105,7 @@ font-family: "Share Tech Mono", monospace;
   font-weight: 800;
   font-style: normal;
 
-    color: rgb(67, 203, 221);
+    color: rgba(82, 190, 220, 1);
 }
 
 main .img1 {
@@ -127,8 +135,9 @@ main .img3 {
     background-image: url(style/icons/background1.svg);
     background-repeat: no-repeat;
     position: absolute;
-    
 }
+
+
 
 .galka {
     position: relative;
@@ -141,9 +150,7 @@ main .img3 {
     position: absolute;
     left: 50vh;
     font-size: 62px;
-    font-family: "Share Tech Mono", monospace;
-  font-weight: 800;
-  font-style: normal;
+  
 
 }
 
@@ -157,7 +164,7 @@ main .img3 {
 }
 
 .ptext span {
-    color: rgb(67, 203, 221);
+    color: rgba(82, 190, 220, 1);
 }
 
 .inputs {
@@ -182,12 +189,135 @@ main .img3 {
 
 .email {
 border: transparent;
-
 border-bottom: 1px solid gray;
-
     background: transparent;
     width: 40vh;
     height: 40px;
     
+}
+
+.inputs img {
+    position: relative;
+    left: 80vh;
+    bottom: 10vh;
+}
+
+.file {
+  color: white;
+  padding-top: 20px;
+
+}
+
+.input-file input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+    
+}
+
+.input-file-btn {
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 10vh;
+    top: 10vh;
+   text-decoration: underline;
+   font-size: 20px;
+   transition: 0.6s;
+   
+   
+}
+
+.input-file-text {
+    color: white;
+    position: relative;
+    left: -5vh;
+    top: 13vh;
+    font-size: 15px;
+    
+}
+
+form button {
+  background: yellow;
+  color: black;
+  width: 192px;
+  height: 59px;
+  position: relative;
+  border: transparent;
+  top: 20vh;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+form button:hover {
+    background:rgb(0, 255, 13);
+    transition: 0.7s;
+}
+
+
+
+.checkbox2 {
+    color: white;
+    position: relative;
+    top: 21vh;
+
+}
+
+.hp_cyber {
+    display: flex;
+    background-color: yellow;
+    position: relative;
+    top: 175vh;
+    background-image: url(style/icons/background2.svg);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.monitor {
+    position: relative;
+    top: 15vh;
+    left: 30vh;
+    height: 430px;
+    width: 624px;
+}
+
+.plist {
+    display: flex;
+    flex-direction: column;
+ 
+ }
+
+.plist .p1 {
+  position: relative;
+  top: 15vh;
+  font-size: 55px;
+  left: 40vh;
+font-family: "Share Tech Mono", monospace;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.plist .p2 {
+    position: relative;
+    top: 17vh;
+    left: 40vh;
+    font-size: 20px;
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    position: relative;
+    top: 45vh;
+    left: 2 ;
 }
 
